@@ -1,0 +1,6 @@
+body,div,main,section,article,h1,p{margin:0;padding:0;}
+body{background:#000;}
+main{display: table;background:#ccc;}
+section{display: table;background:blue;}
+section article, section article h1 {text-align:left;font-family: Georgia, 'Times New Roman', Times, serif;}
+section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
