@@ -1,10 +1,15 @@
+/*RESET*/
 body,div,main,section,article,h1,p{margin:0;padding:0;}
+/*FIN RESET*/
+
+
+/*GLOBAL*/
 body{background:#fff;}
 main{display: table;background:#ccc;margin:auto;}
 section{display: table;background:#fff;}
 section article, section article h1 {text-align:left;font-family:'arial';}
 section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
-
+/*FIN GLOBAL*/
 
 
 /*HEADER*/
@@ -28,3 +33,9 @@ header a.link-cabecera div.logo-cabecera{width: 80px;
     margin: 2px 0 0 0;
     background-size: 100%;}
 /*FIN HEADER*/
+
+/*CONTENIDO*/
+/*FIN CONTENIDO*/
+
+/*FOOTER*/
+/*FIN FOOTER*/
