@@ -9,7 +9,7 @@ section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
 
 /*HEADER*/
 header .contenido-centerado{display: table;margin: auto;position: relative;}
-header .contenido-centerado .logo-centrado{width:80px;height:auto;}
+header .contenido-centerado.logo-centrado{width:80px;height:auto;}
 header{ top: 0;
     position: fixed;
     width: 100%;
