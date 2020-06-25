@@ -4,11 +4,25 @@ main{display: table;background:#ccc;margin:auto;}
 section{display: table;background:#fff;}
 section article, section article h1 {text-align:left;font-family:'arial';}
 section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
-
+/*Para uso General*/
+#contenido-centerado{display: table;margin: auto;position: relative;}
+/*Para uso General*/
 /*HEADER*/
-header{top:0;position:fixed;
+header{ top: 0;
+    position: fixed;
     width: 100%;
     display: table;
     background: #000;
-    padding: 1em 0;box-shadow: 0px 0px 23px #000;}   
+    padding: 0;
+    box-shadow: 0px 0px 23px #000;
+    min-height: 68px;
+    max-height: 68px;}
+header a.link-cabecera{display: table;position: relative;}
+header a.link-cabecera div.logo-cabecera{width: 80px;
+    height: 80px;
+    background: #fff url(../img/logos/logo-small-callejero.jpg);
+    position: absolute;
+    border-radius: 80px;
+    margin: 2px 0 0 0;
+    background-size: 100%;}
 /*FIN HEADER*/
