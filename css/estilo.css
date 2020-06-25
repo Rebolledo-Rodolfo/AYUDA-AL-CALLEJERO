@@ -4,10 +4,12 @@ main{display: table;background:#ccc;margin:auto;}
 section{display: table;background:#fff;}
 section article, section article h1 {text-align:left;font-family:'arial';}
 section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
-/*Para uso General*/
-#contenido-centerado{display: table;margin: auto;position: relative;}
-/*Para uso General*/
+
+
+
 /*HEADER*/
+header .contenido-centerado{display: table;margin: auto;position: relative;}
+header .contenido-centerado .logo-centrado{width:80px;height:auto;}
 header{ top: 0;
     position: fixed;
     width: 100%;
