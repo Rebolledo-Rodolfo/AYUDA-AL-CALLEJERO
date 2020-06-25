@@ -6,4 +6,5 @@ section article, section article h1 {text-align:left;font-family:'arial';}
 section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
 
 /*HEADER*/
+header{top:0;position:fixed;}
 /*FIN HEADER*/
