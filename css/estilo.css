@@ -2,11 +2,14 @@
 body,div,main,section,article,h1,p{margin:0;padding:0;}
 /*FIN RESET*/
 
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+/*FIN FONTS*/
 
 /*GLOBAL*/
 body{background:#fff;}
-section{display: table;background:#fff;}
-section article, section article h1 {text-align:left;font-family:'arial';}
+section{display: table;}
+section article, section article h1 {text-align:left;font-family: 'Open Sans', sans-serif;}
 section article p{text-align:left;font-family: 'Times New Roman', Times, serif;}
 /*FIN GLOBAL*/
 
@@ -29,10 +32,10 @@ header a.link-cabecera div.logo-cabecera{width: 80px;
 /*FIN HEADER*/
 
 /*CONTENIDO*/
-main{display: table;background:#ccc;margin:auto;}
-main.contenido-home{}
-main section{}
-main section.seccion-home{}
+main{display: table;margin:auto;width:100%;}
+main.contenido-home{margin-top: 15vh;}
+main section{display: table;}
+main section.seccion-home{width:90%;background:#fff;width:95%;margin:auto;height:15vh;}
 /*FIN CONTENIDO*/
 
 /*FOOTER*/
