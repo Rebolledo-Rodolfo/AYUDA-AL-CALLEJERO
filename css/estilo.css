@@ -35,6 +35,9 @@ header a.link-cabecera div.logo-cabecera{width: 80px;
 /*FIN HEADER*/
 
 /*CONTENIDO*/
+main{}
+main section{}
+main section.seccion-home{}
 /*FIN CONTENIDO*/
 
 /*FOOTER*/
