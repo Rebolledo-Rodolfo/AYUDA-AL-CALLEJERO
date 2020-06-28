@@ -35,7 +35,15 @@ header a.link-cabecera div.logo-cabecera{width: 80px;
 main{display: table;margin:auto;width:100%;}
 main.contenido-home{margin-top: 15vh;}
 main section{display: table;}
-main section.seccion-home{width:90%;background:#fff;width:95%;margin:auto;height:15vh;}
+main section.seccion-home{width:90%;background:#fff;width:100%;margin:auto;height:15vh;}
+main section.seccion-home article{}
+main section.seccion-home article.articulo-tipo-1{}
+main section.seccion-home article h1{}
+main section.seccion-home article picture{width: 100%;overflow: hidden;display: table;position: relative;min-height: 56vw;}
+main section.seccion-home article picture img{position: relative;
+    margin: auto;width: 100%;display: block;}
+main section.seccion-home article .home-bajada{}
+main section.seccion-home article .home-bajada p.texto-bajada{}
 /*FIN CONTENIDO*/
 
 /*FOOTER*/
