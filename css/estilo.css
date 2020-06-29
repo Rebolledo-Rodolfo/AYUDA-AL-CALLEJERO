@@ -40,7 +40,8 @@ main{display: table;margin:auto;width:100%;}
 main.contenido-home{margin-top: 10vh;}
 main section{display: table;}
 main section.seccion-home{width:90%;background:#fff;width:100%;margin:auto;height:15vh;}
-main section.seccion-home article{}
+main section.seccion-home article{width:100%;margin:2vh 0;}
+main section.seccion-home article:nth-child(1){margin:0;}
 main section.seccion-home article h1{}
 main section.seccion-home article.articulo-tipo-1{}
 main section.seccion-home article.articulo-tipo-1 h1{
@@ -58,11 +59,26 @@ main section.seccion-home article.articulo-tipo-1 h1{
     border-top: 0;
     box-shadow: 3px 15px 25px #000;}
 
+main section.seccion-home article div.contenido-extendido{}
+main section.seccion-home article div.contenido-extendido h3{
+    display:table;
+    margin:auto;
+    font-size: 2em;
+    padding: 3vh 0;
+    font-weight: lighter;
+}
+main section.seccion-home article div.contenido-extendido h3 span{
+    font-weight: 600;
+}
+
 main section.seccion-home article picture{width: 100%;overflow: hidden;display: table;position: relative;min-height: 56vw;z-index:1;}
 main section.seccion-home article picture img{position: relative;
     margin: auto;width: 100%;display: block;filter: brightness(0.6);}
-main section.seccion-home article .home-bajada{}
-main section.seccion-home article .home-bajada p.texto-bajada{}
+main section.seccion-home article .home-bajada{width:90%;margin:auto;}
+main section.seccion-home article .home-bajada p.texto-bajada{
+    font-size: 1.4em;
+    text-align: center;
+}
 /*FIN CONTENIDO*/
 
 /*FOOTER*/
