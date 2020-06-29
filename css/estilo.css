@@ -74,7 +74,7 @@ main section.seccion-home article div.contenido-extendido h3 span{
 main section.seccion-home article picture{width: 100%;overflow: hidden;display: table;position: relative;min-height: 56vw;z-index:1;}
 main section.seccion-home article picture img{position: relative;
     margin: auto;width: 100%;display: block;filter: brightness(0.6);}
-main section.seccion-home article .home-bajada{width:90%;margin:auto;}
+main section.seccion-home article .home-bajada{width:90%;margin:auto;padding-bottom:6vh;}
 main section.seccion-home article .home-bajada p.texto-bajada{
     font-size: 1.4em;
     text-align: center;
