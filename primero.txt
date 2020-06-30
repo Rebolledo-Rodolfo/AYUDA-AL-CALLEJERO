@@ -8,3 +8,5 @@ Soy Yark , iniciador del todo, a pesar de las cosas el todo es nada. - 2020
 - Dejando el ganar dinero como la manera de crecer en esa línea.
 
 - Esto se conecta desde GitHub
+
+- Esto es desde Git a Git Hub vía SSH 
