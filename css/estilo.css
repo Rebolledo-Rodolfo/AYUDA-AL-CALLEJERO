@@ -72,7 +72,8 @@ main section.seccion-home article div.contenido-extendido h3 span{
 }
 
 main section.seccion-home article picture{width: 100%;overflow: hidden;display: table;position: relative;min-height: 56vw;z-index:1;}
-main section.seccion-home article picture img{position: relative;
+main section.seccion-home article picture img{
+    position: relative;
     margin: auto;width: 100%;display: block;filter: brightness(0.6);}
 main section.seccion-home article .home-bajada{width:90%;margin:auto;padding-bottom:6vh;}
 main section.seccion-home article .home-bajada p.texto-bajada{
@@ -82,14 +83,7 @@ main section.seccion-home article .home-bajada p.texto-bajada{
 /*FIN CONTENIDO*/
 
 
-/*CONTENIDO FLYING CARPET*/
-
-
-
-.amp-flying-carpet-wrapper {
-    overflow:hidden;
-  }
-  
+/*CONTENIDO FLYING CARPET*/  
   .amp-flying-carpet-text-border {
     background: black;
     color: white;
@@ -137,23 +131,13 @@ main section.seccion-home article .home-bajada p.texto-bajada{
     justify-content: center;
   }
   
-  .dfp-ad {
-    height:600px;
-    width: 300px;
-    background: grey;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    position:relative;
-  }
+
+
   
-  .dfp-ad-container {
-    position: absolute;
-  }
-  
-  .advert-image {
+  .contenido-flying-image {
     position:relative;
-    left: -800px;
+    filter: brightness(0.4);
+    filter: grayscale(1);  
   }
 /*FIN CONTENIDO FLYING CARPET*/*/
 
