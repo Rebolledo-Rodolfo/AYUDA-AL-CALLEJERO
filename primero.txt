@@ -9,4 +9,6 @@ Soy Yark , iniciador del todo, a pesar de las cosas el todo es nada. - 2020
 
 - Esto se conecta desde GitHub
 
-- Esto es desde Git a Git Hub vía SSH 
+- Esto es desde Git a Git Hub vía SSH
+
+- Esto viene de STALLION - TERMINAL LINUX  
